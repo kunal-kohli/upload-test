@@ -11,4 +11,10 @@ app.get('/', (req, res) => {
 
 app.listen(port, () => {
     console.log('WORKING');
+    console.log('WORKING');
+    console.log('WORKING');
+    console.log('WORKING');
+    console.log('WORKING');
+    console.log('WORKING');
+
 });
