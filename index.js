@@ -10,6 +10,11 @@ app.get('/', (req, res) => {
     res.send('WORKING');
 });
 
+app.get('/data', (req, res) => {
+    console.log('',process.env.PORT)
+    res.send('WORKING-fine');
+});
+
 app.listen(port, () => {
     console.log('WORKING');
 });
